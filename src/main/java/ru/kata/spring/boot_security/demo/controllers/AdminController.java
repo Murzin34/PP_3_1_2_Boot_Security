@@ -83,9 +83,4 @@ public class AdminController {
         return "redirect:/admin";
     }
 
-    @GetMapping("/login")
-    public String loginPage() {
-        return "/login";
-    }
-
 }

@@ -6,7 +6,7 @@ import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Set;
 
-@Transactional
+
 public interface RoleDAO {
     List<Role> getAllRoles();
 
